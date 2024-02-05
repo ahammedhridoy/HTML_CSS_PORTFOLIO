@@ -1,0 +1,88 @@
+@media screen and (max-width: 820px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sidebar-content {
+    margin: 30px;
+    padding: 20px;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .main-content {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 20px;
+  }
+  .project-count {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: unset;
+  }
+  .project-item img {
+    width: 600px;
+    height: 400px;
+  }
+  .testimonial-item {
+    width: 100%;
+  }
+  .education-wrap,
+  .skills-wrap,
+  .project-wrap,
+  .testimonial-wrap,
+  .contact-wrap {
+    margin-left: 0px;
+  }
+  .home-title {
+    font-size: 50px;
+  }
+  .input-item input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .project-item img {
+    width: 250px;
+    height: 200px;
+  }
+  .education-title,
+  .skills-title,
+  .project-title,
+  .testimonial-title,
+  .contact-title {
+    font-size: 30px;
+  }
+  .edu-inner-wrap {
+    margin-left: 0px;
+  }
+  .edu-inner-title h4 {
+    font-size: 20px;
+  }
+  .home-wrap {
+    margin-left: 0px;
+  }
+  .home-title {
+    font-size: 20px;
+  }
+  .email a {
+    font-size: 16px;
+  }
+  .input-item textarea {
+    width: 235px;
+  }
+  .project-count {
+    margin-top: 140px;
+  }
+  .menu {
+    right: 10px;
+  }
+}
