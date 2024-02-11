@@ -60,6 +60,21 @@ body {
 .menu a:hover {
   color: var(--green);
 }
+.menu a i:active {
+  color: var(--green) !important;
+}
+.menu a i:focus {
+  color: var(--green) !important;
+}
+.menu a i:focus-visible {
+  color: var(--green) !important;
+}
+.menu a i:target {
+  color: var(--green) !important;
+}
+.menu a i.active {
+  color: var(--green) !important;
+}
 
 /* Content CSS */
 
